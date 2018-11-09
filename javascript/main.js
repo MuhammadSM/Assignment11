@@ -7,7 +7,7 @@ $(".toDo").on('click', 'div',  function(){
 	});
 
 $(".bttn").click(function(){
-		var newListItem = $("<li><div class='toggle'></div>  <input class='customItem'</input> </li>");
+		var newListItem = $("<li><div class='toggle'></div><input class='customItem'></li>");
 		$(".toDo").append(newListItem);
 	});
 
